@@ -1,0 +1,89 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+body {
+  background-color: #DFDFEC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+h1, h2, h3 {
+  color: #444444;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.5em;
+}
+h2 {
+  font-size: 24px;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #EC8014;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFFFFF;
+}
+p {
+  font-family: 'Uchen', serif;
+  color: #444444;
+}
+.card-white {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+#img-circle {
+  border-radius: 50%;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.btn-orange {
+  background-color: #EC8014;
+  color: #EEEEEE;
+  border-radius: 4px;
+  padding: 10px;
+}
+.btn-orange:hover {
+  background-color: #EC3514;
+}
+.list-inline i {
+  font-size: 40px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: #EC8014;
+}
